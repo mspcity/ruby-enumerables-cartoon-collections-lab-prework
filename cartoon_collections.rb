@@ -14,10 +14,9 @@ def long_planeteer_calls(long_planeteer_calls)
   long_planeteer_calls.map do |call|
     if call.length > 4
       return true
-    else
-      return false
     end
   end
+  false
 end
 
 def find_the_cheese# code an argument here
